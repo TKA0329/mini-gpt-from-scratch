@@ -9,6 +9,9 @@ tokenization, causal self-attention, training dynamics, and sampling strategies.
 
 The model is intentionally small and trained with limited compute, focusing on clarity and correctness rather than performance.
 
+## Motivation
+This project was built to deepen my understanding of language models by implementing every major component manually, from tokenization to sampling. I hope to apply what I’ve learned here to DNA and protein sequences in computational biology.
+
 ## Key Features
 - Custom **SentencePiece BPE tokenizer** (20k vocab)
 - GPT-style **causal Transformer** with:
@@ -59,6 +62,3 @@ This project is intended as a learning and research exercise rather than a produ
 - Demonstrates character continuity
 - Demonstrate early signs of coherence and narrative structure
 
-## Motivation
-
-This project was built to deepen my understanding of language models by implementing every major component manually, from tokenization to sampling.
