@@ -55,7 +55,7 @@ The training lasted for ~3 hours, with the final validation loss reaching 4.39.
 - No reinforcement learning or instruction tuning
 - No evaluation on downstream benchmarks
 
-This project is intended as a learning and research exercise rather than a production model.
+This project is intended as a learning project rather than a production model.
 
 ## Samples
 - Reflect the overall tonality of the training texts
