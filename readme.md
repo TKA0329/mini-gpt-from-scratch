@@ -31,7 +31,7 @@ The model is intentionally small and trained with limited compute, focusing on c
 
 ## Dataset
 The model was trained on approximately **1 million lines of text** compiled from
-public-domain sources (Project Gutenberg), with basic cleaning applied.
+classic novels (e.g. Dickens, Dostoevsky) from public-domain sources (Project Gutenberg), with basic cleaning applied.
 
 The goal was not perfect text quality, but to study how a Transformer learns structure
 from imperfect real-world data.
@@ -52,6 +52,11 @@ Training was done on limited compute, so the model is not fully converged.
 - No evaluation on downstream benchmarks
 
 This project is intended as a learning and research exercise rather than a production model.
+
+## Samples
+- Reflects the overall tonality of the training texts
+- Demonstrates character continuity
+- Demonstrate early signs of coherence and narrative structure
 
 ## Motivation
 
