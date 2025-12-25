@@ -22,7 +22,7 @@ The model is intentionally small and trained with limited compute, focusing on c
 - Fully written in **PyTorch (no HuggingFace abstractions)**
 
 ## Model Architecture
-- Layers: 8 Transformer blockss
+- Layers: 8 Transformer blocks
 - Embedding dimension: 384
 - Attention heads: 8
 - Context length: 512 tokens
@@ -41,10 +41,11 @@ from imperfect real-world data.
 - Learning rate: 3e-4
 - Scheduler: Linear warmup (10%) + cosine decay
 - Batch size: 16
-- Epochs: 5
-- Loss: Cross-entropy (next-token prediction)
+- Epochs: 12 
+- Loss: Cross-entropy
 
-Training was done on limited compute, so the model is not fully converged.
+Training was done on limited compute (2 x T4 GPUs on Kaggle), so the model is not fully converged.
+The training lasted for ~3 hours, with the final validation loss reaching 4.39.
 
 ## Limitations
 - Small model size and limited training data
